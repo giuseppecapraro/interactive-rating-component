@@ -1,7 +1,6 @@
 let rating = 0;
 
 $(".rating span").on("click", function(){
-
     $(".rating span").not(this).removeClass("click");
     $(this).toggleClass("click");
     rating = this.innerText;

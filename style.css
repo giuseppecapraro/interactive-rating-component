@@ -2,6 +2,7 @@
     font-family: "Overpass", sans-serif;
     font-weight: 400;
     margin: 0;
+    
 }
 body{
     background-color: #121417;
@@ -24,6 +25,7 @@ body{
     border-radius: 5%;
     padding: 1.5rem;
     transition: 0.5s;
+    cursor: default;
 }
 
 .faviconContainer{
@@ -42,18 +44,15 @@ body{
     color: hsl(0, 0%, 100%);
     font-weight: 700;
     padding-top: 1rem;
-    cursor: default;
 }
 
 .detail {
     font-size: 0.8rem;
     margin-top: 0.8rem;
-    cursor: default;
 }
 
 .rating{
     text-align: center;
-    cursor: default;
     margin-top: 1rem;
 }
 .rating span.click{
@@ -107,6 +106,7 @@ button:hover{
     border-radius: 5%;
     padding: 2.3rem 2rem;
     transition: 0.5s;
+    cursor: default;
 }
 
 .selectedRatingContainer{
