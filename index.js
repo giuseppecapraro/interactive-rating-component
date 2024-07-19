@@ -11,6 +11,8 @@ $("button").on("click", function() {
         $(".card").hide();
         $(".selectedRating").text("You selected " + rating + " out of 5");
         $(".thankYouCard").show();
+    }else {
+        alert("Please select a rating");
     }
 })
 
